@@ -1,0 +1,54 @@
+body {
+    background-color: #F1F3F4;
+    margin: 0;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12pt;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+}
+
+.item {
+    border: 1px dotted #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+}
+
+.item img {
+    width: 100%;
+    max-width: 380px;
+    height: auto;
+}
+
+a:link, a:visited {
+    color: blue;
+    text-decoration: underline;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    height: 130px;
+
+    font-size: 36pt;
+    padding-top: 20px;
+}
+
+.title img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
